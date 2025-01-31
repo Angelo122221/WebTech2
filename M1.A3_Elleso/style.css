@@ -1,0 +1,121 @@
+/* General Reset */
+body, h1, h2, h3, p, button {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: grid;
+    grid-template-columns: auto 1fr auto auto;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+}
+
+.icon {
+    height: 30px;
+}
+
+.logo-container {
+    display: grid;
+    justify-content: center;
+}
+
+.logo {
+    height: 60px;
+}
+
+.cart-button {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgb(204, 56, 81);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.cart-icon {
+    height: 30px;
+}
+
+/* Ad Section */
+.ad-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    align-items: center;
+    gap: 0px;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.ad-section img {
+    width: 90%;
+    height: 90%;
+}
+
+/* What's New Section */
+.whats-new {
+    display: grid;
+    grid-template-columns: 100px 60px 100px;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+.New {
+    font-style: italic ;
+    color:  rgb(204, 56, 81) ;
+}
+.view{
+    font-weight: 10;
+    color:  rgb(204, 56, 81) ;
+}
+
+/* Product Section */
+.product-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-card {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.product-image img {
+    max-width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.add-button {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f8f8;
+}
